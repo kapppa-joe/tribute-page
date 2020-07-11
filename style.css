@@ -1,0 +1,42 @@
+body {
+    background: rgba(0, 8, 8, 1);
+    font-family: Lato, sans-serif;
+    color: hsl(120, 70%, 85%); 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main {
+    position:relative;
+    max-width: 80vw;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#tribute-info, #img-div, #info-box {
+    /*border: 5px solid #FFFFFF;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-text {
+    border: 1px solid #707070;
+    padding: 1em;
+    margin: 1em;
+}
+
+a {
+    color: hsl(180, 100%, 75%)
+}
+a:hover {
+    background: hsl(60, 100%, 75%);
+    color: hsl(240, 75%, 25%);
+}
